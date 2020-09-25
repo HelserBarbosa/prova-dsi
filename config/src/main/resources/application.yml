@@ -11,5 +11,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/HelserBarbosa/dsi
+          uri: https://github.com/HelserBarbosa/prova-dsi
 
