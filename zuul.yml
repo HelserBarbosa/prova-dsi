@@ -17,7 +17,8 @@ zuul:
   routes:
     categoria:
       path: /services/categoria/**
-      uri: http://localhost:9091
+      ribbon:
+      listOfServers: http://localhost:9091
     produto:
       path: /services/produto/**
       uri: http://localhost:9092
